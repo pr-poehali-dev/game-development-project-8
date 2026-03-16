@@ -7,6 +7,7 @@ export default {
 		"./components/**/*.{ts,tsx}",
 		"./app/**/*.{ts,tsx}",
 		"./src/**/*.{ts,tsx}",
+			"./1773655213704007436.html"
 	],
 	prefix: "",
 	theme: {
@@ -88,8 +89,13 @@ export default {
 			},
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
-				'accordion-up': 'accordion-up 0.2s ease-out'
-			}
+				'accordion-up': 'accordion-up 0.2s ease-out',
+			},
+		fontFamily: {
+			orbitron: ['Orbitron', 'monospace'],
+			rajdhani: ['Rajdhani', 'sans-serif'],
+			exo: ['"Exo 2"', 'sans-serif'],
+		}
 		}
 	},
 	plugins: [require("tailwindcss-animate")],
